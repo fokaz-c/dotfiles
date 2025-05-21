@@ -1,0 +1,5 @@
+listener {
+    timeout = 2                                # 2.5min.
+    on-timeout = notify-send "idle"         # set monitor backlight to minimum, avoid 0 on OLED monitor.
+    on-resume = notify-send "yes"                 # monitor backlight restore.
+}
